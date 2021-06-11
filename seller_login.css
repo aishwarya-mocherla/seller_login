@@ -1,0 +1,175 @@
+.imagebox {
+    width: 50%;
+    float: left;
+    background-color: #6dd66d3f;
+    ;
+    height: 175px;
+}
+
+.textbox {
+    width: 50%;
+    float: right;
+    text-align: left;
+    padding-top: 35px;
+    background-color: #6dd66d3f;
+    color: #555;
+    line-height: 20px;
+    height: 175px;
+    padding-left: 20px;
+}
+
+.sell_process,
+.sell_process .sell_process_step_con {
+    width: 100%;
+    float: left
+}
+
+.business_network .cont .open_ur_shop span {
+    font: 400 90%/130% RC, Arial, Helvetica, sans-serif
+}
+
+.business_network .cont .open_ur_shop>span:nth-of-type(2) {
+    font: 400 100%/130% RC, Arial, Helvetica, sans-serif;
+    text-transform: uppercase
+}
+
+.sell_process {
+    padding: 0 0 30px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -os-box-sizing: border-box;
+    -ms-box-sizing: border-box
+}
+
+.sell_process .sell_process_step_con .step {
+    width: 25%;
+    float: left;
+    text-align: center
+}
+
+.sell_process .sell_process_step_con .step .step_img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 5px;
+    border-radius: 50px;
+    border: 2px dotted #6dd66d;
+    background-position: center!important
+}
+
+.sell_process .sell_process_step_con .step .step_img.upload {
+    background: url(./assets/images/uploadpic.png) no-repeat
+}
+
+.sell_process .sell_process_step_con .step .step_img.get_order {
+    background: url(./assets/images/getorder.png) no-repeat
+}
+
+.sell_process .sell_process_step_con .step .step_img.fullfill_order {
+    background: url(./assets/images/fullfilorder.png) no-repeat
+}
+
+.sell_process .sell_process_step_con .step .step_img.payment {
+    background: url(./assets/images/recievepayment.png) no-repeat
+}
+
+.sell_process .sell_process_step_con .step>div:nth-of-type(2) span {
+    font: 400 90%/130% Roboto_Light, Arial, Helvetica, sans-serif
+}
+
+.sell_process .sell_process_step_con .step>div:nth-of-type(2)>span:nth-of-type(2) {
+    font: 400 120%/130% Roboto_Light, Arial, Helvetica, sans-serif
+}
+
+.why_shopclues_outer {
+    width: 100%;
+    padding: 10px 12px 30px;
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -os-box-sizing: border-box;
+    -ms-box-sizing: border-box
+}
+
+.why_shopclues_outer .table {
+    display: table;
+    border-spacing: 4px;
+    background: #fff;
+    width: 100%
+}
+
+.why_shopclues_outer .table .why_shopclues {
+    width: 100%;
+    display: table-row
+}
+
+.why_shopclues_outer .table .why_shopclues div {
+    width: 16%;
+    display: table-cell;
+    color: #fff;
+    padding: 55px 2px 15px;
+    text-transform: uppercase;
+    font: 400 70%/130% Roboto_Bold, Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -os-box-sizing: border-box;
+    -ms-box-sizing: border-box
+}
+
+.merchant_testimonials,
+.merchant_testimonials .content {
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    -os-box-sizing: border-box
+}
+
+.why_shopclues_outer .table .why_shopclues div.pay {
+    background: url(./assets/images/paymoney.png) 50% 10px no-repeat, #494b4979;
+    background-size: 41px, 100%;
+    border-radius: 10px;
+}
+
+.why_shopclues_outer .table .why_shopclues div.timeline {
+    background: url(./assets/images/shortest.png) 50% 11px no-repeat, #69a06988;
+    background-size: 32px, 100%;
+    border-radius: 10px;
+}
+
+.why_shopclues_outer .table .why_shopclues div.support {
+    background: url(./assets/images/uninterrupted.png) 50% 10px no-repeat, #6dd66d7e;
+    background-size: 28px, 100%;
+    border-radius: 10px;
+}
+
+.why_shopclues_outer .table .why_shopclues div.pick {
+    background: url(./assets/images/wepick.png) 50% 15px no-repeat, #6dd66d7e;
+    background-size: 42px, 100%;
+    border-radius: 10px;
+}
+
+.why_shopclues_outer .table .why_shopclues div.terms {
+    background: url(./assets/images/transparency.png) 50% 14px no-repeat, #69a06988;
+    background-size: 33px, 100%;
+    border-radius: 10px;
+}
+
+.why_shopclues_outer .table .why_shopclues div.control {
+    background: url(./assets/images/control.png) 50% 12px no-repeat, #494b4979;
+    background-size: 30px, 100%;
+    border-radius: 10px;
+}
+
+@media all and (min-width:320px) and (max-width:480px) {
+    .why_shopclues_outer .table .why_shopclues div {
+        margin: 0 3px 3px 0;
+        width: 32.2%;
+        display: inherit!important;
+        float: left;
+        font-size: 100%;
+        height: 100px
+    }
+}
